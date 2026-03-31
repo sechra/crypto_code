@@ -10,7 +10,7 @@ import { ISemver } from "interfaces/universal/ISemver.sol";
 /// @custom:proxied true
 /// @custom:predeploy 0x4200000000000000000000000000000000000015
 /// @title L1Block
-/// @notice The L1Block predeploy gives users access to information about the last known L1 block.
+/// @notice The L1 Block predeploy gives users access to information about the last known L1 block.
 ///         Values within this contract are updated once per epoch (every L1 block) and can only be
 ///         set by the "depositor" account, a special system address. Depositor account transactions
 ///         are created by the protocol whenever we move to a new epoch.
