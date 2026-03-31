@@ -46,7 +46,7 @@ contract L1Block is ISemver {
 
     /// @notice The overhead value applied to the L1 portion of the transaction fee.
     /// @custom:legacy
-    uint256 public l1FeeOverhead;
+    uint256 public l1 FeeOverhead;
 
     /// @notice The scalar value applied to the L1 portion of the transaction fee.
     /// @custom:legacy
