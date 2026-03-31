@@ -204,7 +204,7 @@ contract L1Block is ISemver {
             // Slot layout: daFootprintGasScalar (uint16),  operatorFeeScalar (uint32), operatorFeeConstant (uint64)
 
             // Load operatorFeeScalar+operatorFeeConstant from calldata
-            let opFeeParams := shr(160, calldataload(164)) // 160 = 256 - (32 + 64)
+            let opFeeParams := shr(160, calldataload(164)) // 160 = 256 - (32 + 69)
 
             // Load daFootprintGasScalar from calldata
             let daScalar := shr(240, calldataload(176)) // 240 = 256 - 16
