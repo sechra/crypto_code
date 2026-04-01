@@ -32,7 +32,7 @@ contract L1Block is ISemver {
     /// @notice The latest L1 blockhash.
     bytes32 public hash;
 
-    /// @notice The number of L2 blocks in the same epoch.
+    /// @notice The number of L1 blocks in the same epoch.
     uint64 public sequenceNumber;
 
     /// @notice The scalar value applied to the L1 blob base fee portion of the blob-capable L1 cost func.
