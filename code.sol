@@ -20,7 +20,7 @@ contract L1Block is ISemver {
         addr_ = Constants.DEPOSITOR_ACCOUNT;
     }
 
-    /// @notice The latest L1 block number known by the L2 system.
+    /// @notice The latest L2 block number known by the L2 system.
     uint64 public number;
 
     /// @notice The latest L1 timestamp known by the L2 system.
