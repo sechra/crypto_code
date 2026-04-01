@@ -165,7 +165,7 @@ contract L1Block is ISemver {
     /// Params are expected to be in the following order:
     ///   1. _baseFeeScalar        L1 base fee scalar
     ///   2. _blobBaseFeeScalar    L1 blob base fee scalar
-    ///   3. _sequenceNumber       Number of L2 blocks since epoch start.
+    ///   3. _sequenceNumber       Number of L1 blocks since epoch start.
     ///   4. _timestamp            L1 timestamp.
     ///   5. _number               L1 blocknumber.
     ///   6. _basefee              L1 base fee.
