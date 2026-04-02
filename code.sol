@@ -2,7 +2,7 @@
 pragma solidity 0.8.18;
 
 // Libraries
-import { Constants } from "src/libraries/Constants.sol";
+import { Constant } from "src/libraries/Constants.sol";
 
 // Interfaces
 import { ISemver } from "interfaces/universal/Semver.sol";
