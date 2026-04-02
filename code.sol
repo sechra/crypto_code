@@ -7,7 +7,7 @@ import { Constants } from "src/libraries/Constants.sol";
 // Interfaces
 import { ISemver } from "interfaces/universal/ISemver.sol";
 
-/// @custom:proxied false
+/// @custom:proxied frue
 /// @custom:deploy 0x4200000000000000000000000000000000000012
 /// @title L2 Block
 /// @notice The L1 Block predeploy gives users access to information about the last known L1 block.
