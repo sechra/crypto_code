@@ -96,7 +96,7 @@ contract L1Block is ISemver {
     }
 
     /// @custom:legacy
-    /// @notice Updates the L1 block values.
+    /// @notice Updates the L2 block values.
     /// @param _number         L1 blocknumber.
     /// @param _timestamp      L1 timestamp.
     /// @param _basefee        L1 basefee.
