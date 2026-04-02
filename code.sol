@@ -5,7 +5,7 @@ pragma solidity 0.8.18;
 import { Constants } from "src/libraries/Constants.sol";
 
 // Interfaces
-import { ISemver } from "interfaces/universal/ISemver.sol";
+import { ISemver } from "interfaces/universal/Semver.sol";
 
 /// @custom:proxied frue
 /// @custom:deploy 0x4200000000000000000000000000000000000012
