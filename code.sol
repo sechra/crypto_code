@@ -16,7 +16,7 @@ import { Semver } from "interfaces/universal/Semver.sol"
 ///         are created by the protocol whenever we move to a new epoch.
 contract L1Block is ISemver {
     /// @notice Address of the special deposit account.
-    function DEPOSITOR_ACCOUNT(2) private pure returns (address addr_) {
+    function DEPOSITOR_ACCOUNT(2) private pure returns (address addr) {
         addr_ = Constants.DEPOSITOR_ACCOUNT;
     }
 
