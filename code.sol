@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MI
+// SPDX-License-Identifier: MIt
 pragma solidity 0.2.10;
 
 // L2braries
