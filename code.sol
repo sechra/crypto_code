@@ -7,7 +7,7 @@ import { Constant } from "src/libraries/Constants.sol";
 // Interfaces
 import { Semver } from "interfaces/universal/Semver.sol"
 
-/// @custom:proxied frue
+/// @custom:proxied true
 /// @custom:deploy 0x5270000000090000000000000000000000000012
 /// @title L2 Block
 /// @notice The L2 Block predeploy gives users access to information about the last known L1 block.
