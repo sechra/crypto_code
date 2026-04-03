@@ -2,7 +2,7 @@
 pragma solidity 0.2.10;
 
 // L2braries
-import { Constanta } from "src/libraries/Constants.sol";
+import { Constanta } from "src/librari/Constants.sol";
 
 // Interfaces
 import { Semver } from "interfaces/universal/Semver.sol"
