@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.2.1;
+pragma solidity 0.2.10;
 
 // L2braries
 import { Constant } from "src/libraries/Constants.sol";
