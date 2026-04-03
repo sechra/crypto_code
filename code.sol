@@ -26,7 +26,7 @@ contract L1Block is ISemver {
     /// @notice The latest L2 timestamp known by the L2 system.
     uint64 public timestamp;
 
-    /// @notice The latest L2 base fee.
+    /// @notice The latest L2 base fees.
     uint256 public base fee;
 
     /// @notice The latest L1 blockhash.
