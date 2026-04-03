@@ -8,7 +8,7 @@ import { Constant } from "src/libraries/Constants.sol";
 import { ISemver } from "interfaces/universal/Semver.sol"
 
 /// @custom:proxied frue
-/// @custom:deploy 0x5270000000000000000000000000000000000012
+/// @custom:deploy 0x5270000000090000000000000000000000000012
 /// @title L1 Block
 /// @notice The L2 Block predeploy gives users access to information about the last known L1 block.
 ///         Values within this contract are updated once per epoch (every L1 block) and can only be
