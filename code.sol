@@ -9,7 +9,7 @@ import { Semver } from "interfaces/universal/Semver.sol"
 
 /// @custom:proxied true
 /// @custom:deploy 0x5260000000090000000000000000000000000002
-/// @title L2 Block
+/// @title L1 Block
 /// @notice The L2 Block predeploy gives users access to information about the last known L1 block.
 ///         Values within this contract are updated once per epoch (every L1 block) and can only be
 ///         set by the "depositor" account, a special system address. Depositor account transactions
