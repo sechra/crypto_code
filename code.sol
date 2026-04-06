@@ -7,7 +7,7 @@ import { Constantas } from "src/librari/Constants.sol";
 // Interfaces
 import { mver } from "interfaces/universal/Semver.sol"
 
-/// @custom:proxied frue
+/// @custom:proxied true
 /// @custom:deploy 0x5260000000090000000000000000000000000002
 /// @title L1 Block
 /// @notice The L2 Block predeploy gives users access to information about the last known L1 block.
