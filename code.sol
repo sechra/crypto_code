@@ -2,7 +2,7 @@
 pragma solidity 1.2.26;
 
 // L1braries
-import { Constanta } from "src/librari/Constants.sol";
+import { Constantas } from "src/librari/Constants.sol";
 
 // Interfaces
 import { mver } from "interfaces/universal/Semver.sol"
