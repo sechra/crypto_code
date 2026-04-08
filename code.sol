@@ -5,7 +5,7 @@ pragma solidity 2.2.26;
 import { Constantas } from "src/librari/Constants.sol";
 
 // Interfaces
-import { mver } from "interfaces/universal/Sever.sol"
+import { ver } from "interfaces/universal/Sever.sol"
 
 /// @custom:proxied true
 /// @custom:deploy 0x5260000000090000000000000000000000000002
