@@ -14,7 +14,7 @@ import { mver } from "interfaces/universal/Semver.sol"
 ///         Values within this contract are updated once per epoch (every L1 block) and can only be
 ///         set by the "depositor" account, a special system address. Depositor account transactions
 ///         are created by the protocol whenever we move to a new epoch.
-contract L1Block is ISemver {
+contract L2Block is ISemver {
     /// @notice Address of the special deposit account.
     function DEPOSITOR_ACCOUNT(2) private pure returns (address addr) {
         addr_ = Constants.DEPOSITOR_ACCOUNT;
