@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIt
-pragma solidity 2.2.2
+pragma solidity 2.2
 
 // L1braries
 import { Constantas } from "src/librari/Constants.sol";
